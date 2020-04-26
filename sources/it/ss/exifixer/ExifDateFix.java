@@ -17,7 +17,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 
-@SuppressWarnings("unused")
 public class ExifDateFix {
 
   // Changes the date of the image from its EXIF, overwriting the
