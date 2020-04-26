@@ -6,7 +6,6 @@ import org.apache.commons.imaging.ImageWriteException;
 import java.io.File;
 import java.io.IOException;
 
-@SuppressWarnings("unused")
 public class FilesInFolderIterator {
 
   public static void iterateThroughFolder(String pathToSource, String pathToOutput)
