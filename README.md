@@ -6,3 +6,5 @@ the directory to store the new fixed images into (output directory).
 
 **nb.** WhatsApp backups store the images with a .JPEG or .JPG extension. but since the Apache Commons Imaging library
 cannot write in that format, the new images will have a .PNG extension; the file names will not be changed.  
+
+This tool has been made possibile by an extensive use of the Apache Commons Imaging library.
