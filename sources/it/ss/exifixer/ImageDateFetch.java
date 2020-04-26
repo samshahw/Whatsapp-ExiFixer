@@ -1,6 +1,5 @@
 package it.ss.exifixer;
 
-@SuppressWarnings("unused")
 public class ImageDateFetch {
 
   // Fetches the date of the photo from the file name of the image, since
