@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
-Main-Class: it.ss.exifixer.Main
+Main-Class: it.ss.exifixer.MainClass
+Class-Path: commons-imaging-1.0-alpha1.jar
 
