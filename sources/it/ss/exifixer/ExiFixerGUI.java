@@ -1,6 +1,5 @@
-package it.ss.exifixer.gui;
+package it.ss.exifixer;
 
-import it.ss.exifixer.FilesInFolderIterator;
 import org.apache.commons.imaging.ImageReadException;
 import org.apache.commons.imaging.ImageWriteException;
 
@@ -224,7 +223,9 @@ public class ExiFixerGUI extends JFrame {
 
       try {
 
-        Desktop.getDesktop().browse(new URI("https://github.com/samshahw/Galaxy"));
+        // Redirects to the issues page on Github
+        Desktop desktop = Desktop.getDesktop();
+        desktop.browse(new URI("https://github.com/samshahw/Whatsapp-ExiFixer/issues"));
 
       } catch (IOException | URISyntaxException e) {
 

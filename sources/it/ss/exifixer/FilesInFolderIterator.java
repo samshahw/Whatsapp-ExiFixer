@@ -6,7 +6,7 @@ import org.apache.commons.imaging.ImageWriteException;
 import java.io.File;
 import java.io.IOException;
 
-import static it.ss.exifixer.gui.ExiFixerGUI.printGui;
+import static it.ss.exifixer.ExiFixerGUI.printGui;
 
 public class FilesInFolderIterator {
 
